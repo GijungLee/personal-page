@@ -30,13 +30,23 @@ h3 {
 }
 
 a {
-  color: #d8ac9c
+  color: #d8ac9c;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFFFFF;
 }
 
 hr {
   border-top: 5px dotted;
   width: 5%;
   margin: 100px auto;
+}
+
+p {
+  line-height: 2;
 }
 
 .subtitle {
@@ -47,7 +57,6 @@ hr {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .skill1 {
@@ -99,11 +108,36 @@ hr {
   background-color: #f4eeed;
   padding-top: 50px;
   padding-bottom: 50px;
+
 }
 
 .bottom-container {
   background-color: #999b84;
-  padding: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.profile {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-me {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  width: 58%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-intro {
+  width: 10%;
 }
 
 .btn {
@@ -139,5 +173,6 @@ hr {
   margin: 10px;
 }
 .copyright {
-  margin-top: 32px;
+  padding-top: 10px;
+  font-size: 0.9rem;
 }
