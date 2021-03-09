@@ -17,7 +17,6 @@ h1 {
   /* 100% = 16px = 1em */
 }
 
-
 h2 {
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
@@ -165,13 +164,16 @@ p {
    border-radius: 20px;
    text-decoration: none;
 }
+
 .bottom-container {
   color: #f4eeed;
 }
+
 .footer-link {
   color: #f4eeed;
   margin: 10px;
 }
+
 .copyright {
   padding-top: 10px;
   font-size: 0.9rem;
